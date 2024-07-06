@@ -22,7 +22,7 @@ services:
     environment:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 2778
+      POSTGRES_PASSWORD:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
