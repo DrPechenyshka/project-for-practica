@@ -5,9 +5,9 @@ def migrate_db():
     conn = psycopg2.connect(
         dbname="postgres",
         user="postgres",
-        password="2778",
+        password="",
         host="db",
-        port="5432"
+        port=""
     )
     cur = conn.cursor()
     
